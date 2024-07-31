@@ -11,12 +11,12 @@ header {
     background-size: cover;
     height: 550px;
     width: auto;
-    
     padding: auto;
 }
 
 body {
     background-color: white;
+    text-align: center;
 }
 
 main {
@@ -28,7 +28,8 @@ main p {
     display: flex;
     justify-content: center;
     margin-right: auto;
-    padding-top: 20px;
+    margin-top: 40px;
+    padding-bottom: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -38,8 +39,107 @@ main .action {
     margin-right: 20px;
 }
 
+
+main::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+}
+
+article {
+    background-color: white;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
 article h1 {
-    padding-top: 100px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+article p {
+    
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+div{
+
+    padding-right: 20px;
+}
+
+.dir {
+    display: inline-block;
+    text-align: justify;
+    
+}
+
+.esq {
+    display: inline-block;
+    padding-bottom: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 37px;
 }
+
+.dir p {
+    border-width: 0px 0px 0px 3.5px;
+    border-style: solid;
+    border-color: #000;
+    padding-left: 5px;
+}
+
+.container {
+
+    align-items: normal;
+    box-sizing: border-box;
+    color:rgb(0, 0, 0);
+    column-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 1257.84px;
+    line-height: 21px;
+    margin-block-end: 0px;
+    margin-block-start: 40px;
+    max-width: 1200px;
+    row-gap: 50px;
+    unicode-bidi: isolate;
+    width: 228px;
+}
+
+.cons {
+    align-self: center;
+    display: block;
+    flex-grow: 100%;
+    font-size: 14px;
+    height: 309.75px;
+    line-height: 21px;
+    overflow-wrap: break-word;
+    unicode-bidi: isolate;
+    width: 228px;
+    word-break: break-word;
+}
+
+.divor{
+    margin: 50px;
+    
+}
+
+.fam{
+    margin: 50px;
+    }
+
+.pens{
+    margin: 50px;
+}    
